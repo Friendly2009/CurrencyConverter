@@ -5,12 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CurrencyConverter"
         mc:Ignorable="d"
-        Title="MainWindow" Height="200" Width="450" MaxWidth="450" MinWidth="200" MaxHeight="200" MinHeight="200">
+        Title="MainWindow" Height="400" Width="900" MaxWidth="900" MinWidth="900" MaxHeight="400" MinHeight="400">
     <Grid>
-        <Grid VerticalAlignment="Top" Height="20px" Background="#FF1F1F1F">
+        <Grid VerticalAlignment="Top" Height="30px" Background="#FF1F1F1F">
             
         </Grid>
-        <Grid VerticalAlignment="Bottom" Height="170px" Background="#FF8A8A8A">
+        <Grid VerticalAlignment="Bottom" Height="331px" Background="#FF4E4E4E">
             
         </Grid>
     </Grid>
