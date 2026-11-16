@@ -20,5 +20,30 @@ namespace CurrencyConverter
         {
             InitializeComponent();
         }
+
+        private void AboutProgramBtn_MouseEnter(object sender, MouseEventArgs e)
+        {
+
+        }
+
+        private void HelpBtn_MouseEnter(object sender, MouseEventArgs e)
+        {
+
+        }
+
+        private void HelpBtn_MouseLeave(object sender, MouseEventArgs e)
+        {
+
+        }
+
+        private void Button_MouseEnter(object sender, MouseEventArgs e)
+        {
+
+        }
+
+        private void ExitBtn_MouseEnter(object sender, MouseEventArgs e)
+        {
+
+        }
     }
 }

@@ -9,13 +9,13 @@
     <Grid>
         <Grid VerticalAlignment="Top" Height="30px" Background="#FF1F1F1F">
             <Grid HorizontalAlignment="Left" VerticalAlignment="Stretch" Width="185px"  Margin="5,5,5,5">
-                <Button Width="90" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Content="About program" Background="Transparent" Foreground="#FFB1B1B1" Style="{StaticResource NoMouseOverButtonStyle}">
+                <Button x:Name="AboutProgramBtn" Width="90" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Content="About program" Background="Transparent" Foreground="#FFB1B1B1" Style="{StaticResource NoMouseOverButtonStyle}" ForceCursor="True" MouseEnter="AboutProgramBtn_MouseEnter">
                 </Button>
-                <Button Width="90" HorizontalAlignment="Right" HorizontalContentAlignment="Center" Content="Help" Background="Transparent" Foreground="#FFB1B1B1" Style="{StaticResource NoMouseOverButtonStyle}">
+                <Button x:Name="HelpBtn" Width="90" HorizontalAlignment="Right" HorizontalContentAlignment="Center" Content="Help" Background="Transparent" Foreground="#FFB1B1B1" Style="{StaticResource NoMouseOverButtonStyle}" ForceCursor="True" MouseEnter="HelpBtn_MouseEnter" MouseLeave="HelpBtn_MouseLeave">
                 </Button>
             </Grid>
             <Grid HorizontalAlignment="Right" VerticalAlignment="Stretch" Width="60px"  Margin="5,5,5,5">
-                <Button Content="Exit" Background="Transparent" Foreground="#FFB1B1B1" Style="{StaticResource NoMouseOverButtonStyle}">
+                <Button x:Name="ExitBtn" Content="Exit" Background="Transparent" Foreground="#FFB1B1B1" Style="{StaticResource NoMouseOverButtonStyle}" ForceCursor="True" MouseEnter="ExitBtn_MouseEnter" MouseLeave="ExitBtn_MouseLeave">
                 </Button>
             </Grid>
         </Grid>
