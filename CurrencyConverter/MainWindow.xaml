@@ -7,40 +7,15 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="400" Width="900" MaxWidth="900" MinWidth="900" MaxHeight="400" MinHeight="400">
     <Grid>
-
         <Grid VerticalAlignment="Top" Height="30px" Background="#FF1F1F1F">
             <Grid HorizontalAlignment="Left" VerticalAlignment="Stretch" Width="185px"  Margin="5,5,5,5">
-                <Button Width="90" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Content="About program" Background="Transparent" Foreground="#FFB1B1B1">
-                    <Button.Resources>
-                        <Style x:Key="NoMouseOverButtonStyle" TargetType="Button">
-                            <Setter Property="OverridesDefaultStyle" Value="True" />
-                            <Setter Property="Template">
-                                <Setter.Value>
-                                    <ControlTemplate TargetType="Button">
-                                        <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
-                                            <ContentPresenter Margin="{TemplateBinding Padding}" />
-                                        </Border>
-                                    </ControlTemplate>
-                                </Setter.Value>
-                            </Setter>
-                        </Style>
-                    </Button.Resources>
+                <Button Width="90" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Content="About program" Background="Transparent" Foreground="#FFB1B1B1" Style="{StaticResource NoMouseOverButtonStyle}">
                 </Button>
-                <Button Width="90" HorizontalAlignment="Right" HorizontalContentAlignment="Center" Content="Help" Background="Transparent" Foreground="#FFB1B1B1">
-                    <Button.Resources>
-                        <Style TargetType="Border" >
-                            <Setter Property="CornerRadius" Value="5" />
-                        </Style>
-                    </Button.Resources>
+                <Button Width="90" HorizontalAlignment="Right" HorizontalContentAlignment="Center" Content="Help" Background="Transparent" Foreground="#FFB1B1B1" Style="{StaticResource NoMouseOverButtonStyle}">
                 </Button>
             </Grid>
             <Grid HorizontalAlignment="Right" VerticalAlignment="Stretch" Width="60px"  Margin="5,5,5,5">
-                <Button Content="Exit" Background="Transparent" Foreground="#FFB1B1B1">
-                    <Button.Resources>
-                        <Style TargetType="Border" >
-                            <Setter Property="CornerRadius" Value="5" />
-                        </Style>
-                    </Button.Resources>
+                <Button Content="Exit" Background="Transparent" Foreground="#FFB1B1B1" Style="{StaticResource NoMouseOverButtonStyle}">
                 </Button>
             </Grid>
         </Grid>
