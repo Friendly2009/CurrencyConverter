@@ -45,5 +45,10 @@ namespace CurrencyConverter
         {
 
         }
+        
+        private void ExitBtn_MouseLeave(object sender, MouseEventArgs e)
+        {
+
+        }
     }
 }
