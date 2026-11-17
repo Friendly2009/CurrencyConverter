@@ -2,6 +2,7 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <Style x:Key="NoMouseOverButtonStyle" TargetType="Button">
         <Setter Property="OverridesDefaultStyle" Value="True" />
+        <Setter Property="Foreground" Value="#FFB1B1B1"/>
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="Button">
@@ -12,12 +13,12 @@
             </Setter.Value>
         </Setter>
     </Style>
-    <Style x:Key="NoMouseOverButtonStyleWithCornerRadius" TargetType="Button">
-        <Setter Property="OverridesDefaultStyle" Value="True" />
+    <Style x:Key="MouseOverButtonStyle" TargetType="Button">
+        <Setter Property="Foreground" Value="White" />
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="Button">
-                    <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="5">
+                    <Border Background="Gray" Opacity="0.5" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="5">
                         <ContentPresenter Margin="{TemplateBinding Padding}" />
                     </Border>
                 </ControlTemplate>
